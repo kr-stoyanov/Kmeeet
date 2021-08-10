@@ -1,0 +1,18 @@
+﻿.glossAndBloom {
+    font-family: GlossAndBloom;
+}
+
+
+@font-face {
+    font-family: 'GlossAndBloom';
+    src: url('Gloss_And_Bloom.ttf'); /* IE9 Compat Modes */
+    src: url('Gloss_And_Bloom.ttf') format('embedded-opentype'), /* IE6-IE8 */
+    url('Gloss_And_Bloom.ttf') format('woff'), /* Modern Browsers */
+    url('Gloss_And_Bloom.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@media (min-width: 600px) {
+    .span-size {
+        font-size: 80px;
+    }
+}
